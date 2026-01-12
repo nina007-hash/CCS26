@@ -15,7 +15,13 @@ The data is organized as follows:
 
 ```text
 /
-├── data/
-│   ├── raw/                 # Cleaned .csv files used for analysis
-│   └── dictionary.md        # Definitions of column headers and metrics
+## Repository Structure
+The data is organized as follows:
+
+```text
+/
+├── trial_data.csv           # Trial-by-trial performance data (SA, RT, etc.)
+├── drive_data.csv           # Subjective metrics (Trust, Workload)
+├── codebook.csv             # Anonymized participant feedback and interview codes
+├── data_dictionary.md       # Definitions of column headers and metrics
 └── README.md                # This file
