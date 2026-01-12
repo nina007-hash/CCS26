@@ -16,6 +16,6 @@ The data is organized as follows:
 ```text
 /
 ├── data/
-│   ├── raw/                 # Cleaned excels used for analysis
+│   ├── raw/                 # Cleaned .csv files used for analysis
 │   └── dictionary.md        # Definitions of column headers and metrics
 └── README.md                # This file
