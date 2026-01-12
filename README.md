@@ -1,5 +1,5 @@
 # CCS26
-# Human-Subject Study Data
+# Human Subject Study Data
 
 ## Overview
 This repository contains the anonymized dataset collected from the human-subject study described in the submission **"Effects of Explanations on Driver Situation Awareness Under Physical Adversarial Attacks in Automated Driving: A Driving Simulator Study**. These artifacts are provided to support the experimental evaluation and statistical analysis made in the manuscript, in accordance with the conference's Artifact Policy.
@@ -20,8 +20,8 @@ The data is organized as follows:
 
 ```text
 /
-├── trial_data.csv           # Trial-by-trial performance data (SA, RT, etc.)
-├── drive_data.csv           # Subjective metrics (Trust, Workload)
+├── trial_data.csv           # Collected driving data (SA, Takeover performance)
+├── drive_data.csv           # Subjective metrics (Trust, Mental Workload)
 ├── codebook.xlsx            # Anonymized post-study survey codes
 ├── data_dictionary.md       # Definitions of column headers and metrics
 └── README.md                # This file
