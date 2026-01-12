@@ -22,6 +22,6 @@ The data is organized as follows:
 /
 ├── trial_data.csv           # Trial-by-trial performance data (SA, RT, etc.)
 ├── drive_data.csv           # Subjective metrics (Trust, Workload)
-├── codebook.xlsx            # Anonymized participant feedback and interview codes
+├── codebook.xlsx            # Anonymized post-study survey codes
 ├── data_dictionary.md       # Definitions of column headers and metrics
 └── README.md                # This file
