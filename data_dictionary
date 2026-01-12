@@ -1,0 +1,28 @@
+# Data Dictionary
+
+## 1. trial_data.csv
+Contains trial-by-trial data for all 32 participants (N=384 observations).
+
+| Column | Description |
+| :--- | :--- |
+| `Participant_ID` | Unique anonymized identifier (1-32). |
+| `Group` | Experimental condition assignment (0 = without explaination (Control group), 1 = with explanation (Experimental). |
+| `Level` | Three level (1-3) SA. |
+| `Attack_type` | Coded ID for the specific attack scenario (1=Stop Sign, 2=Vehicle, 3=Pedestrian, 4=Road Markings). |
+| `Reliability` | System reliability state (0 = Low reliability, 1 = High Reliability). |
+| `Attack_order` | Order of the experienced attacks (1st ~ 4th) to account for ordering effects. |
+| `Initial_level_SA` / `Level_SA` | Situation Awareness score for each level (0/1). |
+| `Initial_overall_SA` / `Overall_SA` | Situation Awareness score for each test (Scale 0 ~ 3). |
+| `SA_change` | Change in Overall SA score (Scale -3 ~ 3). |
+| `RT(Longitudinal)` | Reaction time in seconds for longitudinal control takeover. |
+| `RT(Lateral)` | Reaction time in seconds for lateral control takeover. |
+
+## 2. drive_data.csv (Trust and Mental_workload for each drive)
+Contains aggregated survey responses (N=64 observations, 2 drives per participant).
+
+| Column | Description |
+| :--- | :--- |
+| `Trust` | Subjective trust score (Scale 1-7). |
+| `Mental_Workload` | NASA-TLX workload score (Scale 1-7). |
+| `Avg_overall_SA_change` | Change in Average Overall_SA Score for each drive. |
+| `Drive_order` | Order of the formal drive (1st or 2nd) to account for learning effects. |
