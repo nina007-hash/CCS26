@@ -23,8 +23,8 @@ The data is organized as follows:
 
 ```text
 /
-├── trial_data.csv           # Collected driving data (SA, Takeover performance)
-├── drive_data.csv           # Subjective metrics (Trust, Mental Workload)
+├── data_by_attack.csv       # Dataset for SA (overall,each level),RT for longitudinal ontrol, and RT for lateral control by attack objects
+├── data_by_reliability.csv  # Dataset for SA, RT for longitudinal control, RT for lateral control, trust and mental workload assessments by ADS reliability
 ├── codebook.xlsx            # Anonymized post-study survey codes
 ├── data_dictionary.md       # Definitions of column headers and metrics
 └── README.md                # This file
