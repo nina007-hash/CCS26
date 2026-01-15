@@ -25,4 +25,6 @@ Contains aggregated survey responses (N=64 observations, 2 drives per participan
 | `Trust` | Subjective trust score (Scale 1-7). |
 | `Mental_Workload` | NASA-TLX workload score (Scale 1-7). |
 | `Avg_overall_SA_change` | Change in Average Overall_SA Score for each drive. |
+| `Avg_RT(Longitudinal)` | Average Reaction time for longitudinal control takeover in each drive. |
+| `Avg_RT(Lateral)` | Average Reaction time for lateral control takeover in each drive. |
 | `Drive_order` | Order of the formal drive (1st or 2nd) to account for learning effects. |
