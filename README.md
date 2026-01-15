@@ -10,6 +10,9 @@ To ensure participant privacy and compliance with ethical standards:
 * **Consent:** Data was collected with informed consent, specifically allowing for the publication of anonymized results for academic research.
 * **IRB Approval:** The study protocol was reviewed and approved by the authors' Institutional Review Board. (IRB Reference numbers are withheld to maintain double-blind anonymity).
 
+**Note on File Formats:**
+While `data_by_attack.csv` and `data_by_reliability.csv` are provided in standard CSV format for easy machine parsing, `codebook.xlsx` is provided as an Excel file. This is because the codebook utilizes **merged cells and hierarchical headers** to group related survey questions and response categories visually. Converting this file to CSV would strip this formatting and make the coding schema difficult to interpret.
+
 ## Repository Structure
 The data is organized as follows:
 
